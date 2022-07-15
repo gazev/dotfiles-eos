@@ -1,0 +1,7 @@
+[user]
+    email = goncaloazevedo@protonmail.com
+    name = vugonz
+[core]
+    editor = nvim
+[color]
+    ui = true

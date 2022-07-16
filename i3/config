@@ -574,3 +574,5 @@ for_window [class="appGui-ApplicationGui"] move to workspace 5
 for_window [class="appGui-ApplicationGui"] floating enable
 # Second monitor output
 exec_always --no-startup-id xrandr --output eDP1 --off --output HDMI2 --mode 1920x1080
+
+exec conky -d

@@ -45,13 +45,13 @@ border-size = 0
 border-color = #00000000
 
 padding-left = 0
-padding-right = 4
+padding-right = 2
 
 
-module-margin-left = 3
-module-margin-right = 3
+module-margin-left = 1
+module-margin-right = 1
 
-font-0 = "black:size=14"
+font-0 = "monospace:size=14"
 font-1 = "Symbols Nerd Font:size=15"
 
 offset-y = 0
@@ -186,7 +186,7 @@ margin-right=10
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume =   <label-volume> <bar-volume>
+format-volume =   <label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 

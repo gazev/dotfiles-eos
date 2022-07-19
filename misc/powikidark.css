@@ -1,0 +1,109 @@
+/* for firefox plugin stylus */
+
+:root {
+    --light-gray: #444;
+    --gray: #333;
+    --dark-gray: #222;
+    --darker-gray: #111;
+    --black: #000;
+    --white: #ddd;
+    --brown:hsl(4, 100%, 70.6%) !important;
+}
+
+html {
+    background-color: var(--dark-gray);
+}
+
+.top-bar,
+.top-bar-section ul,
+.top-bar-section ul li.active > a,
+.top-bar-section li a:not(.button),
+.top-bar-section .has-form {
+    background-color: var(--darker-gray);
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+    color: var(--white);
+}
+
+.top-bar input {
+    background-color: var(--darker-gray);
+    color: var(--white);
+}
+
+h2.title {
+    color: var(--white);
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    color: var(--white);
+}
+
+body {
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+th {
+    background-color: var(--darker-gray) !important;
+    border-color: var(--black) !important;
+    color: var(--white);
+}
+
+tr {
+    background-color: var(--darker-gray) !important;
+    border-color: var(--black) !important;
+}
+
+#mw-content-text div {
+    background-color: var(--darker-gray) !important;
+}
+
+strong,
+b {
+    color: var(--white);
+}
+
+table.wikitable {
+    border-color: var(--dark-gray) !important;
+}
+
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td {
+    color: var(--white);
+}
+
+body #mw-content-text pre {
+    background-color: var(--darker-gray);
+    border-color: var(--light-gray);
+}
+
+.top-bar-section ul li ul.dropdown li > a {
+    background-color: var(--darker-gray);
+}
+
+table {
+    border: solid 1px var(--darker-gray);
+}

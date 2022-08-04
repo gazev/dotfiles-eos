@@ -1,6 +1,6 @@
 ;==========================================================
 ;
-; ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+; ; ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
 ;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
 ;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
@@ -186,11 +186,11 @@ margin-right=10
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume =   <label-volume>
+format-volume =  <label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted =  
+label-muted = 
 label-muted-foreground = #666
 
 bar-volume-width = 3
@@ -315,9 +315,9 @@ margin-bottom = 2
 [module/memory-info]
 type = custom/script
 exec = ~/.config/polybar/scripts/ram.sh
-format-prefix = "  "
+format-prefix = " "
 
 [module/disc-info]
 type = custom/script
 exec = ~/.config/polybar/scripts/disc.sh
-format-prefix = "  "
+format-prefix = " "
